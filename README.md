@@ -26,3 +26,5 @@ in the @aliyun/credentials-go.
 
 ## Usage
 Run `go build cmd/acr-credential-provider/main.go`, then copy the binary file to `pluginBinDir` defined in Kruise and rename the file as defined in `pluginConfigFile`.
+
+test
