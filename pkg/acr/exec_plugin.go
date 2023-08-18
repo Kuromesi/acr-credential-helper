@@ -42,7 +42,7 @@ func NewCredentialProvider(plugin CredentialProvider) *ExecPlugin {
 }
 
 // Run executes the credential provider plugin. Required information for the plugin request (in
-// the form of v1.CredentialProviderRequest) is provided via stdin from the kubelet.
+// the form of v1beta1.CredentialProviderRequest) is provided via stdin from the kubelet.
 // The CredentialProviderResponse, containing the username/password required for pulling
 // the provided image, will be sent back to the kubelet via stdout.
 func (e *ExecPlugin) Run(ctx context.Context) error {
