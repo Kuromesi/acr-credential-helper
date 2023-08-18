@@ -1,7 +1,7 @@
 # acr-credential-provider
 A credential provider for Alibaba Cloud Container Registry (ACR)
 
-This repository is developed for kubelet exec plugin based on https://github.com/mozillazg/docker-credential-acr-helper/tree/master.
+This repository is developed for OpenKruise exec plugin based on https://github.com/mozillazg/docker-credential-acr-helper/tree/master.
 
 ## Configuration
 
@@ -23,3 +23,6 @@ By default, the helper searches for ACR credentials in the following order:
 
 For more information about configuring credentials, see [Provider](https://github.com/aliyun/credentials-go#provider)
 in the @aliyun/credentials-go.
+
+## Usage
+Run `go build cmd/acr-credential-provider/main.go`, then copy the binary file to `pluginBinDir` defined in Kruise and rename the file as defined in `pluginConfigFile`.
