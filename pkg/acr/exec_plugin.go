@@ -12,7 +12,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apimachinery/pkg/runtime/serializer/json"
 	"k8s.io/kubelet/pkg/apis/credentialprovider/install"
-	v1 "k8s.io/kubelet/pkg/apis/credentialprovider/v1"
+	v1 "k8s.io/kubelet/pkg/apis/credentialprovider/v1beta1"
 )
 
 var (
