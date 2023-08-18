@@ -5,7 +5,7 @@ import (
 	"time"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	v1 "k8s.io/kubelet/pkg/apis/credentialprovider/v1"
+	v1 "k8s.io/kubelet/pkg/apis/credentialprovider/v1beta1"
 )
 
 type Client struct{}
