@@ -1,6 +1,8 @@
 # acr-credential-provider
 A credential provider for Alibaba Cloud Container Registry (ACR)
 
+![Work with kruise-daemon](docs/images/workflow.png)
+
 This repository is developed for OpenKruise exec plugin based on https://github.com/mozillazg/docker-credential-acr-helper/tree/master.
 
 ## Configuration
